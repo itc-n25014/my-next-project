@@ -4,7 +4,6 @@ import Image from "next/image";
 import { News } from "@/app/_libs/microcms";
 import NewsList from "@/app/_components/NewsList";
 
-type News = {};
 const data: {
   contents: News[];
 } = {
